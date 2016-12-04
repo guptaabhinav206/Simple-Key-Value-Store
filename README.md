@@ -33,11 +33,13 @@ This operation will take again O(1) time. Create a node at the front of the list
 
 # Execution :
 Import the project in any IDE.
+	
 	Run Main.java class.
 
 or
 
 Create a package and compile all classes
+	
 	javac Main.java
 	java Main
 
