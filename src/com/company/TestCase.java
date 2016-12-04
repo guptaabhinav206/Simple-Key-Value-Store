@@ -20,7 +20,8 @@ public class TestCase {
         assertEquals(2,cache.get(1,1));
         assertEquals(1,cache.get(1,2));
         assertEquals(2,cache.get(1));
-
+        assertEquals(2,cache.get(6,2));
+        assertEquals(2,cache.get(6));
     }
 
 }
