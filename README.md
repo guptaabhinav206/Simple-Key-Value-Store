@@ -29,19 +29,17 @@ This operation will take again O(1) time. Create a node at the front of the list
 
 
 # Get the sources:
-git clone https://github.com/guptaabhinav206/Simple-Key-Value-Store.git
+	git clone https://github.com/guptaabhinav206/Simple-Key-Value-Store.git
 
 # Execution :
 Import the project in any IDE.
-Run Main.java class.
+	Run Main.java class.
 
 or
 
 Create a package and compile all classes
-
-   javac Main.java
-
-   java Main
+	javac Main.java
+	java Main
 
 Also, I have added a JUNIT test case. 
 
