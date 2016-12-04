@@ -23,7 +23,7 @@ public class Cache {
         if(map.containsKey(key)){
             Node node = map.get(key);
             remove(node);
-            setHead(node);
+            bringFront(node);
             return node.value;
         }
         return -1;
@@ -67,7 +67,7 @@ public class Cache {
     }
 
     // Assign head of the list to the latest key queried O(1)
-    public void setHead(Node node){
+    public void bringFront(Node node){
 
         node.next = head;
         node.pre = null;
@@ -83,16 +83,16 @@ public class Cache {
 
         if(map.containsKey(key)){
             Node node= new Node(key, value);
-            setHead(node);
+            bringFront(node);
             map.put(key, node);
         }else{
             Node newNode = new Node(key, value);
             if(map.size()>=capacity){
                 map.remove(tail.key);
                 remove(tail);
-                setHead(newNode);
+                bringFront(newNode);
             }else{
-                setHead(newNode);
+                bringFront(newNode);
             }
             map.put(key, newNode);
         }
