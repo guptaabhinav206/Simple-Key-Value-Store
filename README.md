@@ -16,7 +16,7 @@ This needs to be done in O(1) hence, we would be needing a HashMap for storing t
 Whenever a GET(key) is done the node is removed and placed at the front of the list. The most recently used are placed at the front and least recently used at the back of the list.
 
 2. GET(key, version) :
-I have done this operation but it would take O(1) in worst case. Traversing the list until the correct version and the versioning order is automatically updated by GET(key)
+I have done this operation but it would take O(N) in worst case. Traversing the list until the correct version and the versioning order is automatically updated by GET(key)
 
 3. SET(key, value) :
 This operation will take again O(1) time. Create a node at the front of the list and add a entry to the HashMap. 
