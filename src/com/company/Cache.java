@@ -56,18 +56,14 @@ public class Cache {
     // Deletes node when try to exceed the cache capacity O(1)
     public void remove(Node node){
 
-        if(node.pre!=null){
+        if(node.pre!=null)
             node.pre.next = node.next;
-        }else{
+        else
             head = node.next;
-        }
-
-        if(node.next!=null){
+        if(node.next!=null)
             node.next.pre = node.pre;
-        }else{
+        else
             tail = node.pre;
-        }
-
     }
 
     // Assign head of the list to the latest key queried O(1)
@@ -75,14 +71,11 @@ public class Cache {
 
         node.next = head;
         node.pre = null;
-
         if(head!=null)
             head.pre = node;
-
         head = node;
         if(tail ==null)
             tail = head;
-
     }
     
     // Adding key and value pair to the Map and List O(1)
