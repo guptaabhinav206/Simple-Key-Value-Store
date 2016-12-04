@@ -26,3 +26,20 @@ This operation will take again O(1) time. Create a node at the front of the list
 # Work needs to be done:
 1. Adding support for data structures such as List, String, Set.
 2. Changing code so that it can be used as a service (API).
+
+
+# Get the sources:
+git clone https://github.com/guptaabhinav206/Simple-Key-Value-Store.git
+
+# Execution :
+Import the project in any IDE.
+Run Main.java class.
+
+or
+
+Create a package and compile all classes
+javac Main.java
+java Main
+
+Also, I have added a JUNIT test case. 
+
