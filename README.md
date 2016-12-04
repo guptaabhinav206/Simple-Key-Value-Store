@@ -38,8 +38,10 @@ Run Main.java class.
 or
 
 Create a package and compile all classes
-javac Main.java
-java Main
+
+   javac Main.java
+
+   java Main
 
 Also, I have added a JUNIT test case. 
 
