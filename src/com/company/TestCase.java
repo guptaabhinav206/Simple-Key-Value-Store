@@ -8,7 +8,7 @@ import org.junit.Test;
 public class TestCase {
 
     @Test
-    public void testFindMax(){
+    public void testRun(){
         Cache cache = new Cache(10);
         cache.set(1,1);
         cache.set(1,2);
