@@ -43,12 +43,12 @@ public class Cache {
                 return node.value;
             }
 /*
-            List<Node> list = new ArrayList<Node>(map.values());
-            List<Integer> list2 = new ArrayList<Integer>(map.keySet());
-            System.out.println(list2.get(0));
-            for(Iterator<Node> itr = list.iterator(); itr.hasNext();){
-                System.out.print(itr.next().value+" ");
-            }
+        List<Node> list = new ArrayList<Node>(map.values());
+        List<Integer> list2 = new ArrayList<Integer>(map.keySet());
+        System.out.println(list2.get(0));
+        for(Iterator<Node> itr = list.iterator(); itr.hasNext();){
+            System.out.print(itr.next().value+" ");
+        }
 */
         return -1;
     }
