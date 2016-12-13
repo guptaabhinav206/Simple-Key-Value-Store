@@ -50,5 +50,4 @@ Now, to run the Main class you need to execute the below command from src folder
 	java com.company.Main
 
  
-Also, I have added a JUNIT test case. 
 
