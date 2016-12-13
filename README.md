@@ -38,10 +38,17 @@ Import the project in any IDE.
 
 or
 
-Create a package and compile all classes
-	
-	javac Main.java
-	java Main
+If you want to run it from command line, then follow below steps:
 
+Go into package com/company and execute 
+
+	javac *.java
+	
+Now, to run the Main class you need to execute the below command from src folder.
+
+	cd projectlocation/Simple-Key-Value-Store/src
+	java com.company.Main
+
+ 
 Also, I have added a JUNIT test case. 
 
